@@ -1,3 +1,49 @@
-p{
-    color: red;
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    border:0;
+    font-family: sans-serif;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 17%;
+    padding-right: 18%;
+    padding-bottom: 8%;
+    padding-left: 18%;
+    background-color: white;
+    
+}
+.container{
+    background-color:green;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    
+}
+.container-left{
+    background-color: aqua;
+    width: 33.333%;
+    height: 100%;
+    
+}
+.container-center{
+    background-color: yellowgreen;
+    width: 33.333%;
+    height: 100%;
+
+}
+.container-right{
+    background-color: yellow;
+    width: 33.333%;
+    height: 100%;
+}
+
+.icon{
+    
 }
