@@ -5,6 +5,7 @@
     box-sizing: border-box;
     border:0;
     font-family: sans-serif;
+    text-decoration: none;
 }
 
 
@@ -18,20 +19,24 @@ body{
     padding-left: 18%;
     background-color: white;
     font-family: sans-serif;
+   
     
 }
 .container{
-    background-color:green;
+   
     height: 500px;
     width: 100%;
     display: flex;
     
+    
 }
 .container-left{
-    background-color: yellow;
+    background-color: hsl(31, 77%, 52%);
     width: 33.333%;
     height: 100%;
     padding: 5%;
+    border-radius: 10px 0px 0 10px;
+    
     
 }
 .icon_left{
@@ -42,7 +47,7 @@ body{
 
 
 .container-center{
-    background-color: yellowgreen;
+    background-color: hsl(184, 100%, 22%);
     width: 33.333%;
     height: 100%;
     padding: 5%;
@@ -55,10 +60,11 @@ body{
 
 }
 .container-right{
-    background-color: yellow;
+    background-color: hsl(179, 100%, 13%);
     width: 33.333%;
     height: 100%;
     padding: 5%;
+    border-radius: 0 10px 10px 0
 }
 
 .icon_right{
@@ -80,10 +86,10 @@ body{
     font-size: 40px;
     font-family:'Big Shoulders Display', cursive;
     text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
 }
 
 .paragraph{
-    
     padding-top: 8%;
     padding-right: 0;
     padding-bottom: 55%;
@@ -91,18 +97,63 @@ body{
     font-size: 14px;
     font-family: 'Lexend Deca', sans-serif;
     text-align:left;
-    
-
+    color: hsl(0, 0%, 95%);
+    font-weight:100;
+    line-height:1.8 ;
 }
 
-.button{
+
+.button_left{
     display: inline;
-    width: 75%;
-    height: 15%;
+    width: 70%;
+    height: 12%;
     padding-top: 18px;
     padding-right: 25px;
     padding-bottom: 18px;
     padding-left: 25px;
-    margin-top: 8px;
+    margin: 2px 4px;
+    border: 25px;
+    border-radius: 23px;
+    text-align: center;
+    font-size: 15px;
+    font-weight:600;
+    color:hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
     
 }
+.button_center{
+    display: inline;
+    width: 70%;
+    height: 12%;
+    padding-top: 18px;
+    padding-right: 25px;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    margin: 2px 4px;
+    border: 25px;
+    border-radius: 23px;
+    text-align: center;
+    font-size: 15px;
+    font-weight:600;
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+}
+.button_right{
+    display: inline;
+    width: 70%;
+    height: 12%;
+    padding-top: 18px;
+    padding-right: 25px;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    margin: 2px 4px;
+    border: 25px;
+    border-radius: 23px;
+    text-align: center;
+    font-size: 15px;
+    font-weight:600;
+    color:  hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+
+}
+
