@@ -105,55 +105,79 @@ body{
 
 .button_left{
     display: inline;
-    width: 70%;
+    width: 80%;
     height: 12%;
-    padding-top: 18px;
+    padding-top: 12px;
     padding-right: 25px;
-    padding-bottom: 18px;
+    padding-bottom: 12px;
     padding-left: 25px;
     margin: 2px 4px;
-    border: 25px;
-    border-radius: 23px;
+    border: 2px;
+    border-radius: 32px;
+    border-style: solid;
+    border-color: whitesmoke;
     text-align: center;
     font-size: 15px;
-    font-weight:600;
-    color:hsl(31, 77%, 52%);
+    font-weight:560;
+   
+    
+    /*
     background-color: hsl(0, 0%, 95%);
+    */
+    
+   
     
 }
+.leiamais-left{
+    color: aliceblue;
+}
+
+
 .button_center{
     display: inline;
     width: 70%;
     height: 12%;
-    padding-top: 18px;
+    padding-top: 12px;
     padding-right: 25px;
-    padding-bottom: 18px;
+    padding-bottom: 12px;
     padding-left: 25px;
     margin: 2px 4px;
-    border: 25px;
-    border-radius: 23px;
+    border: 2px;
+    border-radius: 32px;
+    border-style: solid;
+    border-color: whitesmoke;
     text-align: center;
     font-size: 15px;
     font-weight:600;
-    color: hsl(184, 100%, 22%);
-    background-color: hsl(0, 0%, 95%);
+
+    
+}
+.leiamais-center{
+    color: aliceblue;
 }
 .button_right{
     display: inline;
     width: 70%;
     height: 12%;
-    padding-top: 18px;
+    padding-top: 12px;
     padding-right: 25px;
-    padding-bottom: 18px;
+    padding-bottom: 12px;
     padding-left: 25px;
     margin: 2px 4px;
-    border: 25px;
-    border-radius: 23px;
+    border: 2px;
+    border-radius: 32px;
+    border-style: solid;
+    border-color: whitesmoke;
     text-align: center;
     font-size: 15px;
     font-weight:600;
-    color:  hsl(179, 100%, 13%);
-    background-color: hsl(0, 0%, 95%);
+   
 
 }
+.leiamais-right{
+    color: aliceblue;
+}
 
+a:hover {
+    color:black;
+}
